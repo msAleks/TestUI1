@@ -32,7 +32,7 @@ public class CallbackTest {
     @AfterEach
     void tearDown() {
         driver.quit();
-       //driver = null;
+        driver = null;
     }
 
     @Test
